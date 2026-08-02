@@ -8,6 +8,6 @@ class Camioneta(Vehiculo):
     def calcular_cotizacion(self, dias):
         return (self.get_precio_diario() + self.seguro_4x4_diario) * dias
 Camioneta.catalogo = {
-    "1": Camioneta("Toyota", "Hilux", 2.4, 55000, 5, "4x4", "Nieve/Playa", 12.0),
-    "2": Camioneta("Ford", "Ranger", 2.0, 58000, 5, "4x4", "Nieve/Playa", 11.5)
+    "1": Camioneta("Toyota", "Hilux", "2.4L Diesel", 55000, 5, "4x4", "Nieve/Playa", 12.0),
+    "2": Camioneta("Mitsubishi", "L200", "2.2L Turbodiesel", 58000, 5, "4x4", "Nieve/Playa", 11.5)
 }

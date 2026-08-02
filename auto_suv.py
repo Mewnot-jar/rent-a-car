@@ -9,6 +9,6 @@ class AutoSuv(Vehiculo):
             total = total * 0.90
         return total
 AutoSuv.catalogo = {
-    "1": AutoSuv("Toyota", "Yaris", 1.5, 55000, 5, "4x4", "Nieve/Playa", 12.0),
-    "2": AutoSuv("Toyota", "RAV4", 2.5, 58000, 5, "4x4", "Nieve/Playa", 11.5)
+    "1": AutoSuv("Toyota", "Yaris", "1.5L Gasolina", 35000, 5, "4x2", "Ciudad", 18.5),
+    "2": AutoSuv("Nissan", "Qashqai", "2.0L Gasolina", 45000, 5, "AWD", "Ciudad", 14.0)
 }
