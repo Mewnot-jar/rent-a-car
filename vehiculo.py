@@ -1,8 +1,9 @@
 class Vehiculo:
-    def __init__(self, marca, modelo, precio_diario, capacidad_personas, tipo_traccion, terreno_ideal, rendimiento_kml):
+    def __init__(self, marca, modelo, motor, precio_diario, capacidad_personas, tipo_traccion, terreno_ideal, rendimiento_kml):
         #atributos protegidos
         self._marca = marca
         self._modelo = modelo
+        self._motor = motor
 
         #atributos privados
         self.set_precio_diario(precio_diario)
@@ -40,8 +41,10 @@ class Vehiculo:
         print("------- FICHA TECNICA -------")
         print(f"Marca:            {self._marca}")
         print(f"Modelo:           {self._modelo}")
-        print(f"Capacidad:        {self.get_capacidad_personas()}")
+        print(f"Motor:            {self._motor}")
+        print(f"Capacidad:        {self.get_capacidad_personas()} personas")
         print(f"Traccion:         {self.get_tipo_traccion()}")
-        print(f"Rendimiento:      {self.get_rendimiento_kml()}")
+        print(f"Terreno ideal:    {self.get_terreno_ideal()}")
+        print(f"Rendimiento:      {self.get_rendimiento_kml()} km/l")
         print(f"Precio por dia:   ${self.get_precio_diario()}")
         print("-----------------------------")
