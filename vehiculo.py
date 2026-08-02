@@ -45,6 +45,3 @@ class Vehiculo:
         print(f"Rendimiento:      {self.get_rendimiento_kml()}")
         print(f"Precio por dia:   ${self.get_precio_diario()}")
         print("-----------------------------")
-
-auto = Vehiculo("Toyota", "Corolla", -20000, 5, "Delantero", 14)
-auto.mostrar_ficha_tecnica()

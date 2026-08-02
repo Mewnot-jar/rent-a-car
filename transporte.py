@@ -15,9 +15,9 @@ class Transporte(Vehiculo):
             },
             "Crafter": {
                 "motor": "2.0L Diesel", 
-                "capacidad_personas": 3,
+                "capacidad_personas": 20,
                 "traccion": "4x2",
-                "rendimiento": 7.0,
+                "rendimiento": 10.0,
                 "precio_dia": 75000
             
             },
