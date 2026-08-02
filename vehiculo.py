@@ -38,8 +38,8 @@ class Vehiculo:
 
     def mostrar_ficha_tecnica(self):
         print("------- FICHA TECNICA -------")
-        print(f"Marca:            {self.marca}")
-        print(f"Modelo:           {self.modelo}")
+        print(f"Marca:            {self._marca}")
+        print(f"Modelo:           {self._modelo}")
         print(f"Capacidad:        {self.get_capacidad_personas()}")
         print(f"Traccion:         {self.get_tipo_traccion()}")
         print(f"Rendimiento:      {self.get_rendimiento_kml()}")
