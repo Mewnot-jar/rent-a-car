@@ -1,8 +1,8 @@
 from vehiculo import Vehiculo
 
 class Camioneta(Vehiculo):
-    def __init__(self, marca, modelo, precio_diario, capacidad_personas, tipo_traccion, terreno_ideal, rendimiento_kml, seguro_4x4_diario=5000):
-        super().__init__(marca, modelo, precio_diario, capacidad_personas, tipo_traccion, terreno_ideal, rendimiento_kml)
+    def __init__(self, marca, modelo, motor, precio_diario, capacidad_personas, tipo_traccion, terreno_ideal, rendimiento_kml, seguro_4x4_diario=5000):
+        super().__init__(marca, modelo, motor, precio_diario, capacidad_personas, tipo_traccion, terreno_ideal, rendimiento_kml)
         self.seguro_4x4_diario = seguro_4x4_diario
 
     def calcular_cotizacion(self, dias):
