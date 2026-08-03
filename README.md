@@ -35,3 +35,12 @@ rent-a-car/
 ├── camion.py          # Clase hija para vehículos de carga pesada
 ├── transporte.py      # Clase hija para traslado de grupos
 └── README.md          # Documentación del proyecto
+
+## Diagrama de flujo
+
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/b4ef5349-8005-471a-920a-f668a134c64e" />
+
+## Diagrama de clases
+
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/9114da8b-fd7f-4c4d-a076-bab53b04fad5" />
+
